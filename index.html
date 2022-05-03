@@ -1,0 +1,139 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <aside>
+      <nav>
+        <ol>
+          <li>
+            <span><a href="#photo_and_signature">PHOTO AND SIGNATURE</a></span>
+          </li>
+          <li>
+            <span><a href="#personal_info">PERSONAL INFO</a></span>
+          </li>
+          <li>
+            <span><a href="#academic_info">ACADEMIC INFO</a></span>
+          </li>
+          <li>
+            <span><a href="#personal_bias">PERSONAL BIAS</a></span>
+          </li>
+        </ol>
+      </nav>
+    </aside>
+    <main>
+      <section id="photo_and_signature">
+        <span
+          ><figure>
+            <img src="#" alt="personal_picture" /><input
+              type="file"
+              src=""
+              alt=""
+            />
+          </figure>
+          <figure>
+            <img src="#" alt="personal_signature" /><input
+              type="file"
+              src=""
+              alt=""
+            /></figure
+        ></span>
+      </section>
+      <hr>
+
+      <section id="personal_info">
+        <div class="section_title"><h4>Personal Info</h4></div>
+
+        <form action="" style="display: block">
+          <div class="_name">
+            <label for="name">Name</label>
+            <input type="text" name="" id="name" />
+          </div>
+          <div class="_about_me">
+            <label for="about_me">About Me</label>
+            <textarea
+              name="about_me"
+              id="about_me"
+              cols="80"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="_DOB">
+            <label for="DOB">Date Of Birth</label>
+            <input type="date" id="DOB" name="DOB" />
+          </div>
+          <div class="_gender">
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender" value="male">Male</input>
+            <input type="radio" name="gender" value="female">Female</input>
+          </div>
+          <div class="_favColor">
+              <label for="favColor">Favourite Color</label>
+              <input type="color" name="favColor" id="favColor">
+          </div>
+          <div class="_operating_system">
+              <label for="operating_system">What operating system you use</label>
+              <input type="checkbox" name="operating_system" id="operating_system" value="linux">Linux</input>
+              <input type="checkbox" name="operating_system" id="operating_system" value="windows">Windows</input>
+              <input type="checkbox" name="operating_system" id="operating_system" value="macOS">macOS</input>
+          </div>
+          <div class="_gitHub_link">
+            <label for="gitHub_link">Github Link</label>
+            <input type="url" name="gitHub_link" id="gitHub_link">
+          </div>
+          <div class="_email">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email">
+          </div>
+          <div class="_number">
+              <label for="number">Mobile Number</label>
+              <input type="tel" name="number" id="number">
+          </div>
+          <div class="_experence">
+              <label for="experence">Web Dev Experence</label>
+              <input type="range" name="experence" id="experence" min="0" max="10" step="1" value="0" onchange="range_value.value=value">
+             <output name="range_value" for="experence" ></output>  
+          </div>
+          <div class="submit_button">
+            <button type="submit">Submit</button>
+          </div>
+          <div class="reset_button">
+            <button type="reset">reset</button>
+          </div>
+        </form>
+      </section>
+      <hr>
+      <section id="academic_info">
+          <div class="section_title"><h4>Academic Info</h4></div>
+          <form action="" style="display: block">
+            <div class="_college">
+              <label for="college_name">College Name</label>
+              <input type="text" name="college_name" id="college_name">
+              <label for="passout_year">Passout Year</label>
+              <input type="date" name="passout_year" id="passout_year">
+            </div>
+            <div class="_school">
+              <label for="school_name">School Name</label>
+              <input type="text" name="school_name" id="school_name">
+              <label for="passout_year">Passout Year</label>
+              <input type="date" name="passout_year" id="passout_year">
+            </div>
+            <div class="submit_button">
+              <button type="submit">Submit</button>
+            </div>
+            <div class="reset_button">
+              <button type="reset">reset</button>
+            </div>
+          </form>
+      </section>
+      <hr>
+      <section id="personal_bias">just to practice html form element</section>
+    </main>
+  </body>
+</html>
